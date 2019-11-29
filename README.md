@@ -16,8 +16,8 @@ require_once __DIR__.'/../src/NotificationHandler.php';
 
 $handler = new AffittoCertificato\NotificationHandler();
 
-// this register to a basic event named 'sharingCurriculum'. 
-// In other words the method ->onCurriculum is an alias to ->on('sharingCurriculum', ...
+// this call register to a basic event named 'sharingCurriculum'. 
+// In other words the method ->onCurriculum(...) is an alias to ->on('sharingCurriculum', ...)
 $handler->onCurriculum(function($data){
 
   // do your logic with $data 
@@ -28,7 +28,7 @@ $handler->onCurriculum(function($data){
 });
 
 
-// this register to an event named 'eventname_not_yet_implemented'
+// this call register to an event named 'eventname_not_yet_implemented'
 $handler->on('eventname_not_yet_implemented', function($data){
   return "You should implement this awesome event... really";
 });
@@ -43,7 +43,7 @@ $handler->run();
 ```
 
 
-## What callback should do?
+## What should the callback do?
 
 If a callback wants to inform the caller that something has gone wrong it **must** throw an Exception with a descriptive note in it
 
