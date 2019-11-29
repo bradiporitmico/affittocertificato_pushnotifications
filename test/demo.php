@@ -1,7 +1,5 @@
 <?php
 	
-	// https://collaudo.affittocertificato.it/curriculum-button/phpClientLibrary/test/notifier.php
-
 
 require_once __DIR__.'/../src/NotificationHandler.php';
 
