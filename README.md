@@ -43,7 +43,7 @@ $handler->run();
 
 ## What callback should do?
 
-If callable wants to inform the caller that something has gone wrong it **must** throw an Exception with a descriptive note in it
+If a callback wants to inform the caller that something has gone wrong it **must** throw an Exception with a descriptive note in it
 
 Here's an implementation of a simple logic in onCurriculum event:
 
@@ -68,7 +68,7 @@ $handler->onCurriculum(function($data){
 
 
 
-The callable function may return a value (not mandatory and in any form you want [string, object, number, ...]) as further description for action results, if there's one it will be added as "payload" to json response and passed to AffittoCertificato caller.
+The callback function may return a value (not mandatory and in any form you want [string, object, number, ...]) as further description for action results, if there's one it will be added as "payload" to json response and passed to AffittoCertificato caller.
 
 ```php
 
