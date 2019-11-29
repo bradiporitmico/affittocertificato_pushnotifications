@@ -3,8 +3,10 @@
 
 Simple and fast implementation for push notifications handling from Affitto Certificato 
 
-[![Latest Stable Version](https://poser.pugx.org/affittocertificato/pushnotificationhandler/version)](https://packagist.org/packages/affittocertificato/pushnotificationhandler)
+[![Latest Stable Version](https://poser.pugx.org/affittocertificato/pushnotificationhandler/v/stable)](https://packagist.org/packages/affittocertificato/pushnotificationhandler)
 [![License](https://poser.pugx.org/affittocertificato/pushnotificationhandler/license)](https://packagist.org/packages/affittocertificato/pushnotificationhandler)
+
+
 
 ## Basic example
 
