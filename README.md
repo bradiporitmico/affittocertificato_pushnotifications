@@ -26,7 +26,7 @@ $handler->onCurriculum(function($data){
 });
 
 
-// this register to a event named 'eventname_not_yet_implemented'
+// this register to an event named 'eventname_not_yet_implemented'
 $handler->on('eventname_not_yet_implemented', function($data){
   return "You should implement this awesome event... really";
 });

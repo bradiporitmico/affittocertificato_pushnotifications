@@ -1,7 +1,7 @@
 {
     "name": "affittocertificato/pushnotificationhandler",
     "type": "library",
-    "description": "Lightweight implementation for push notifications from Affitto Certificato API",
+    "description": "Lightweight implementation for push notifications from Affitto Certificato",
     "keywords": ["affitto","certificato","push","notifications"],
     "homepage": "https://github.com/bradiporitmico/affittocertificato_pushnotifications",
     "license": "GPL-3.0-or-later",
