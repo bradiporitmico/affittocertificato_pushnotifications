@@ -100,7 +100,7 @@ The callback onCurriculum receive an object on $data parameter structured as fol
 
 $data->code; // is the code of rental listing you chose during button creation
 $data->curriculumLink; // is the address that link to the tenant's curriculum
-$data->userName; // User's full name, such as "John Smith"
+$data->userName; // Tenant's full name, such as "John Smith"
 
 
 
