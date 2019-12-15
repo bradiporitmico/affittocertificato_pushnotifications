@@ -93,6 +93,19 @@ $handler->onCurriculum(function($data){
 In this case the caller (Affitto Certificato) will receive the string "Have a nice day!" as a payload from the handler (you). 
 This informations will be used as log information and for further debugging activities.
 
+## onCurriculum callback $data format
+
+The callback onCurriculum receive an object on $data parameter structured as follow:
+```php
+
+$data->codiceAnnuncio; // is the code of rental listing, yuo chose during button creation
+$data->curriculumLink; // is the address that link to the tenant's curriculum
+$data->userName; // User's full name, such as "John Smith"
+
+
+
+```
+
 
 
 ## Requirements
