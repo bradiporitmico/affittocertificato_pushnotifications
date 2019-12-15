@@ -98,7 +98,7 @@ This informations will be used as log information and for further debugging acti
 The callback onCurriculum receive an object on $data parameter structured as follow:
 ```php
 
-$data->code; // is the code of rental listing, you chose during button creation
+$data->code; // is the code of rental listing you chose during button creation
 $data->curriculumLink; // is the address that link to the tenant's curriculum
 $data->userName; // User's full name, such as "John Smith"
 
